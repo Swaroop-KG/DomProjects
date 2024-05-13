@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: "Gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #91eeee;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    height: 400px;
+    width: 320px;
+    background-color:rgb(208, 255, 65);
+    border-radius: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+.storian{
+    height: 130px;
+    width: 100%;
+    border-radius:20px ;
+    background-color:rgb(208, 255, 65);
+    border-bottom: 1px solid white;
+    padding: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  
+}
+.storian::-webkit-scrollbar{
+    display: none;
+}
+.story 
+{
+    height: 100px;
+    width: 100px;
+    border :3px solid red;
+    border-radius: 50%;
+    background-color:red;
+    display: inline-block;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.full_screen{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    display: none;
+    border-radius: 20px;
+}
